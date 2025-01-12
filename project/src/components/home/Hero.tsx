@@ -46,7 +46,7 @@ export const Hero: React.FC = () => {
       setDirection(1);
       setCurrentSlide((prev) => (prev + 1) % slides.length);
       setDisplayText(0); // Reset display text when changing slides
-    }, 3000);
+    }, 6000);
     return () => clearInterval(timer);
   }, []);
 
